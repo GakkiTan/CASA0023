@@ -32,6 +32,7 @@ Microwave remote sensing is an example of active remote sensing, which actively 
 The practical section focuses on how to get started with remote sensing data, with particular attention to the acquisition and processing of Sentinel and Landsat data. It covers the selection of source data, basic raster image statistics and processing, and an assessment of the advantages and disadvantages of the different software used. Methods for extracting and statistically comparing spectral signatures are also covered. For example, Nagendra's study on biodiversity in 2001 solved some of the problems regarding the inability to identify the underlying areas through remote sensing techniques and their improvement.
 
 ## 
+
 Reflections
 
 Remote sensing is new to me, and my ideal career would be a GIS engineer, and I think this would be very generalizable (and a bit difficult) at work. Learning remote sensing involves not only understanding complex scientific principles and technical operations, but also interpreting and applying the data. This is a bit of a concern for me and tests my data handling skills more. This learning process enhances the ability to analyze and solve practical problems. I hope I can learn more later on.

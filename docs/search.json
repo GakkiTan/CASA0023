@@ -5,5 +5,26 @@
     "title": "Learning_diary",
     "section": "",
     "text": "About"
+  },
+  {
+    "objectID": "Week1.html#summary",
+    "href": "Week1.html#summary",
+    "title": "1  Week1",
+    "section": "1.1 Summary",
+    "text": "1.1 Summary\nRemote sensing is a technique for observing and measuring objects or phenomena by analyzing data collected from a location distant from the object or phenomenon, usually using aircraft or satellites.\nThe main features of remote sensing include:\n\nNon-contact observations: It is possible to make observations without coming into physical contact with the target by using remote sensing techniques. This is especially crucial for monitoring dangerous or inaccessible regions.\nWide-ranging coverage: It is challenging to conduct widespread remote sensing with ground-based observations. Instead, satellite or airplane platforms can cover large areas.\nMulti-spectral observations: Remote sensing techniques usually include observations in different wavelength ranges, such as visible, infrared and radar. This makes it possible to acquire different types of information.\nTime-series analysis: Changes in the environment or the land surface can be tracked and examined by routinely gathering remote sensing data for the same region.\nData processing and analysis: In order to extract valuable information from remote sensing data, specialist software is typically required."
+  },
+  {
+    "objectID": "Week1.html#applications",
+    "href": "Week1.html#applications",
+    "title": "1  Week1",
+    "section": "1.2 Applications",
+    "text": "1.2 Applications\nAlso, remote sensing has two types.\n\n\n\n\n\nMicrowave remote sensing is an example of active remote sensing, which actively produces electromagnetic waves and collects reflected signals for imaging. On the other hand, visible light remote sensing, which passively picks up electromagnetic waves that a feature emits or reflects, is an example of passive remote sensing. The imaging technique is the primary distinction.\nThe practical section focuses on how to get started with remote sensing data, with particular attention to the acquisition and processing of Sentinel and Landsat data. It covers the selection of source data, basic raster image statistics and processing, and an assessment of the advantages and disadvantages of the different software used. Methods for extracting and statistically comparing spectral signatures are also covered. For example, Nagendra’s study on biodiversity in 2001 solved some of the problems regarding the inability to identify the underlying areas through remote sensing techniques and their improvement."
+  },
+  {
+    "objectID": "Week1.html#section",
+    "href": "Week1.html#section",
+    "title": "1  Week1",
+    "section": "1.3 ",
+    "text": "1.3 \nReflections\nRemote sensing is new to me, and my ideal career would be a GIS engineer, and I think this would be very generalizable (and a bit difficult) at work. Learning remote sensing involves not only understanding complex scientific principles and technical operations, but also interpreting and applying the data. This is a bit of a concern for me and tests my data handling skills more. This learning process enhances the ability to analyze and solve practical problems. I hope I can learn more later on."
   }
 ]
