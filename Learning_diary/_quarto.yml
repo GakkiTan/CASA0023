@@ -1,0 +1,24 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Learning_diary"
+  author: "Norah Jones"
+  date: "1/24/2024"
+  chapters:
+    - index.qmd
+    - Week1.qmd
+    - Week2.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
