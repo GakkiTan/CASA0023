@@ -12,6 +12,17 @@ Here are several types of correction.
 
 (Radiometric Calibration: Ensure that images captured by satellite or aerial sensors are radiometrically accurate.)
 
+## Applications
+
 **Enhancement:** Designed to improve the visual quality of an image, making features in the image more clearly recognizable.(E.g. Image Enhancement, Contrast Enhancement...)
 
-## Applications
+### **Ratio**
+
+According to the practice, Normalized Difference Vegetation Index (NDVI) is primarily used to assess the density and health of surface vegetation. Based on the reflective properties of vegetation to solar radiation, especially in the red and near-infrared bands. Vegetation typically absorbs most of the red light (for photosynthesis) while reflecting more radiation in the near-infrared band.
+
+My study area plot:
+
+```{r echo=FALSE}
+
+!(Pics/Rplot.png)
+```
