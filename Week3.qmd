@@ -22,7 +22,7 @@ According to the practice, Normalized Difference Vegetation Index (NDVI) is prim
 
 My study area plot:
 
-```{r echo=FALSE, out.width='120%', out.height='120%'}
+```{r echo=FALSE}
 
 knitr::include_graphics('images/Rplot.png')
 ```
