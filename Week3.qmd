@@ -3,3 +3,15 @@ title: "Week3"
 ---
 
 ## Summary
+
+Here are several types of correction.
+
+1.  **Geometric correction:** Used to correct geometric aberrations in satellite or aerial images caused by the curvature of the earth, terrain relief, tilt angle of the sensor etc.
+2.  **Atmospheric correction:** Used to remove the negative effects of changes in light intensity and wavelength due to the interaction of light with particles and gases in the atmosphere as it passes through the atmosphere, which can affect the accuracy of images and data captured by satellite or aerial sensors.
+3.  **Orthorectification correction:** Corrects for image distortions due to satellite imaging angles, inhomogeneities in the Earth's surface (e.g., mountains or buildings), and the curvature of the Earth. Satellite imagery is thus converted into a realistic, accurately scaled map representation so that each pixel of the image corresponds precisely to a specific geographic location on the Earth's surface.
+
+(Radiometric Calibration: Ensure that images captured by satellite or aerial sensors are radiometrically accurate.)
+
+**Enhancement:** Designed to improve the visual quality of an image, making features in the image more clearly recognizable.(E.g. Image Enhancement, Contrast Enhancement...)
+
+## Applications
