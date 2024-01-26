@@ -140,7 +140,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">3.1</span> Summary</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">3.2</span> Applications</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">3.2</span> Applications</a>
+  <ul class="collapse">
+  <li><a href="#ratio" id="toc-ratio" class="nav-link" data-scroll-target="#ratio"><span class="header-section-number">3.2.1</span> <strong>Ratio</strong></a></li>
+  <li><a href="#texture" id="toc-texture" class="nav-link" data-scroll-target="#texture"><span class="header-section-number">3.2.2</span> <strong>Texture</strong></a></li>
+  <li><a href="#pca" id="toc-pca" class="nav-link" data-scroll-target="#pca"><span class="header-section-number">3.2.3</span> <strong>PCA</strong></a></li>
+  </ul></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">3.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -173,10 +179,44 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Orthorectification correction:</strong> Corrects for image distortions due to satellite imaging angles, inhomogeneities in the Earth’s surface (e.g., mountains or buildings), and the curvature of the Earth. Satellite imagery is thus converted into a realistic, accurately scaled map representation so that each pixel of the image corresponds precisely to a specific geographic location on the Earth’s surface.</li>
 </ol>
 <p>(Radiometric Calibration: Ensure that images captured by satellite or aerial sensors are radiometrically accurate.)</p>
-<p><strong>Enhancement:</strong> Designed to improve the visual quality of an image, making features in the image more clearly recognizable.(E.g. Image Enhancement, Contrast Enhancement…)</p>
 </section>
 <section id="applications" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
+<p><strong>Enhancement:</strong> Designed to improve the visual quality of an image, making features in the image more clearly recognizable.(E.g. Image Enhancement, Contrast Enhancement…)</p>
+<section id="ratio" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="ratio"><span class="header-section-number">3.2.1</span> <strong>Ratio</strong></h3>
+<p>According to the practice, Normalized Difference Vegetation Index (NDVI) is primarily used to assess the density and health of surface vegetation. Based on the reflective properties of vegetation to solar radiation, especially in the red and near-infrared bands. Vegetation typically absorbs most of the red light (for photosynthesis) while reflecting more radiation in the near-infrared band.</p>
+<p>My study area plot:</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="images/Rplot.png" style="width:120.0%;height:120.0%"></p>
+</div>
+</div>
+</section>
+<section id="texture" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="texture"><span class="header-section-number">3.2.2</span> <strong>Texture</strong></h3>
+<p>Texture analysis enhances the identifiability of objects or surface features in an image, especially in areas of single color or brightness. It describes the roughness, smoothness, and spatial distribution of these features on the surface of an object. By evaluating the relative position of pixels to each other and variations in brightness, texture analysis helps to extract more information about the surface.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://compass.onlinelibrary.wiley.com/cms/asset/168f2d3f-d5e0-43bb-a452-3eb6c5260b68/gec3_451_f4.gif" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">QuickBird test data acquired over the outskirts of Morgantown, WV, on 22 August 2002.(Warner, 2011)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>My texture images looks very bad, so I use others. These images contains: the false color image on the left is probably going to be NIR, the image in the middle is a grayscale map of the red band, and the right is a grayscale map of the NIR band.</p>
+<p>In this image we can see more clearly the farmland, houses, forests, etc. for further analysis.</p>
+</section>
+<section id="pca" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="pca"><span class="header-section-number">3.2.3</span> <strong>PCA</strong></h3>
+<p>PCA is a statistical method that transforms a set of possibly correlated variables into a set of linearly uncorrelated variables by orthogonal transformation, which is widely used for dimensionality reduction, data compression and feature extraction. It is used in remote sensing to improve contrast and remove unnecessary information.</p>
+</section>
+</section>
+<section id="reflection" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> Reflection</h2>
+<p>After this week’s class, I learned a lot about correction and enhancement, which in my understanding these are like makeup and Photoshop! When the camera takes a picture of our face and produces distortions, we can use Photoshop to adjust it to what it was supposed to look like, which is same as correction in remote sensing. When we feel that the photos are not in focus, we can adjust the contrast to make the photos look better, which is the same as the essence of enhancement in remote sensing. I wish I will more familiar with the code, I spend 6 hours to complete practical this week!</p>
 
 
 </section>

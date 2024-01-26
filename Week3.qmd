@@ -22,7 +22,28 @@ According to the practice, Normalized Difference Vegetation Index (NDVI) is prim
 
 My study area plot:
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.width='120%', out.height='120%'}
 
-!(Pics/Rplot.png)
+knitr::include_graphics('images/Rplot.png')
 ```
+
+### **Texture**
+
+Texture analysis enhances the identifiability of objects or surface features in an image, especially in areas of single color or brightness. It describes the roughness, smoothness, and spatial distribution of these features on the surface of an object. By evaluating the relative position of pixels to each other and variations in brightness, texture analysis helps to extract more information about the surface.
+
+```{r echo=FALSE, fig.cap="QuickBird test data acquired over the outskirts of Morgantown, WV, on 22 August 2002.(Warner, 2011)"}
+
+knitr::include_graphics('https://compass.onlinelibrary.wiley.com/cms/asset/168f2d3f-d5e0-43bb-a452-3eb6c5260b68/gec3_451_f4.gif')
+```
+
+My texture images looks very bad, so I use others. These images contains: the false color image on the left is probably going to be NIR, the image in the middle is a grayscale map of the red band, and the right is a grayscale map of the NIR band.
+
+In this image we can see more clearly the farmland, houses, forests, etc. for further analysis.
+
+### **PCA**
+
+PCA is a statistical method that transforms a set of possibly correlated variables into a set of linearly uncorrelated variables by orthogonal transformation, which is widely used for dimensionality reduction, data compression and feature extraction. It is used in remote sensing to improve contrast and remove unnecessary information.
+
+## Reflection
+
+After this week's class, I learned a lot about correction and enhancement, which in my understanding these are like makeup and Photoshop! When the camera takes a picture of our face and produces distortions, we can use Photoshop to adjust it to what it was supposed to look like, which is same as correction in remote sensing. When we feel that the photos are not in focus, we can adjust the contrast to make the photos look better, which is the same as the essence of enhancement in remote sensing. I wish I will more familiar with the code, I spend 6 hours to complete practical this week!
