@@ -1,0 +1,47 @@
+---
+title: "Week7"
+---
+
+## Summary
+
+Google Earth Engine brings together satellite imagery data from past decades to the present, including topographic maps, climate change data and other geospatial data. These datasets are pre-processed and stored in Google's cloud for easy access and analysis.
+
+GEE mainly uses Javascript to programming. Different from the QGIS, GEE converts all data into the Mercator projection when displayed.
+
+By choosing the layers, you can keep whatever you want. E.g.:
+
+```{r echo=FALSE}
+knitr::include_graphics("images/Practical7.png")
+```
+
+Another initial part is reducing images. This usually involves reducing the size, resolution, or amount of remotely sensed image data, which serves several purposes.
+
+1.  Enhance processing speed.
+2.  Saving storage space:fast transmission.
+3.  Remove redundant information: key data are more prominent.
+4.  Data integration: effective comparison and analysis.
+5.  Improved analysis accuracy.
+6.  Adaptation to algorithmic needs: Some image processing algorithms or machine learning models require input data with a fixed size or resolution.
+
+Also linear regression has an important role in GEE to determine trends, variable correlation analysis and model prediction.
+
+## Application
+
+Gorelick et al.(2017) illustrates GEE utilizes a catalog of satellite image data sets to study climate, vegetation, soil, water and many environmental factors and map and quantify changes, trends and trend differences.
+
+Below is a map of Iran made with GEE by Jamali et al(2022).
+
+```{r echo=FALSE, fig.cap="Fig. 1. a Map view showing the study locales in the world with hot and cold airflow hotspots b Iran was located between increasing anomaly from the west and decreasing anomaly from north and east affected of hot and cold airflow hotspots (NOAA, 2021) c LST, d precipitation e EVI and of different land uses in Iran f Tehran Sentinel 2 RGB 843 Tehran Jamaran g LST was calculated in GEE using Landsat 8 image for Tehran Jamaran h EVI was calculated in GEE using Landsat 8 image for Tehran Jamaran for zoomed sample, precipitation in this scale had not variation map. (Jamali et al.,2022)"}
+
+knitr::include_graphics("images/Week7.jpg")
+```
+
+These images can be analyzed in this article to study climate change, vegetation dynamics, and land cover changes in the Iranian region to further study the relationship between surface temperature anomalies and the environment.
+
+Although the operation and visual analysis of GEE has been much better compared to SNAP and QGIS, the problems still exist. One of the most noteworthy is that causality is not clear, e.g. correlations observed from remotely sensed data do not necessarily reflect causality. In the case of this illustration, surface temperature anomalies could be the result of environmental changes or the effect of other unobserved variables. This makes the picture complex and still requires subsequent data analysis and processing. And there is a lack of ground validation, with limited ground observations available in many cases. These may be attributed to the limitations of the model and algorithms, which need to be followed up with continuous improvement in order for us beginners to get a better handle on observing remote sensing images.
+
+## Reflection
+
+GEE is friendly for remote sensing beginners, eliminates the complexity of looking up options, very intuitive to see areas such as Landsat8's image, which it overlays on previous maps, and can zoom in and out and slide randomly, very interesting and good to watch. And just some simple Javascript writing, which is better for those of us who are not familiar with the code.
+
+Google's pioneering in maps is something I've always admired, I've enjoyed looking at live satellite maps on Google maps before, because he often captures some very interesting images, I've even seen my friends :) and the challenge of guessing regions on live satellite maps on the Youtube before was also very interesting, which is a great way for outsiders to get a better understanding of the geographic world, and a great way for insiders to get a better understanding of the world of geography. GEE in a way could work similarly for us, except that the term remote sensing can sound disinteresting, but it's actually quite inspiring. I think I'll spend more time with GEE and try to find out some of its hidden "tricks".
