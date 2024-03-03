@@ -158,6 +158,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">6.1</span> Summary</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -183,6 +185,52 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.1</span> Summary</h2>
+<p>This week’s study of decision trees, I was also learned in another course. It is mainly used to solve classification and regression problems. This week’s lecture introduced the topic through some environmental problems (which was very interesting because I want to write about it for my dissertation) and then talked about what classification and regression trees (CART) are.</p>
+<p><strong>Principle：</strong>The CART model constructs a decision tree by recursively partitioning the dataset into smaller subsets while creating a decision node for each subset.</p>
+<p><strong>Difference：</strong></p>
+<p><strong>Classification trees</strong> are used for the prediction of discrete response variables. They create partitions by maximizing the impurity between different classes, and commonly used impurity measures are the Gini index or entropy.</p>
+<p><strong>Regression trees</strong> are used for the prediction of continuous response variables. They create partitions by minimizing the total squared error in each partition (i.e., the sum of the squares of the differences between the values at each node and the actual values at all points in the node).</p>
+<p>When a decision tree is overfitted, the problem needs to be mitigated by pruning, setting a maximum depth, or requiring a minimum number of samples contained in a node.</p>
+<p><strong>Random Forest：</strong>Improve overall prediction accuracy by combining predictions from multiple decision trees.</p>
+<p>Random forests then solve the overfitting problem of the decision trees just mentioned, with random feature selection and self-sampling, random forests are less prone to overfitting than individual decision trees.</p>
+<p><strong>Image classification：</strong>Aims to classify pixels in remote sensing images into different categories to identify and analyze different features of the ground surface, such as vegetation, water bodies, roads, buildings, and so on.</p>
+<p><strong>Unsupervised</strong> does not require large amounts of training data to be collected and labeled beforehand, and is suitable for situations where labeled data is lacking or costly to obtain.</p>
+<p>Clustering algorithms (e.g., K-means) are applied to automatically group pixels into classes based on their spectral features. These algorithms attempt to cluster pixels with similar features together to form class clusters.</p>
+<p><strong>Supervised</strong> evaluates the accuracy of the classification by comparing the classification results to a set of independent validation samples of known class.</p>
+<p><strong>Maximum Likelihood Classification (MLC)</strong> is a widely used supervised classification technique. Classification is performed by estimating the probability that a pixel belongs to each predefined category.</p>
+<p><strong>Support Vector Machine (SVM)</strong> is used to solve classification and regression problems.SVM aims to find optimal boundaries (called hyperplanes) between different classes to maximize the edges between different classes. This method is particularly effective in high-dimensional spaces and is therefore well suited for processing multi-band remote sensing data.</p>
+</section>
+<section id="application" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="application"><span class="header-section-number">6.2</span> Application</h2>
+<p>The percentage of sub-pixel impervious area (SPIS) is the proportion of impervious surface area in a pixel and is an important indicator of the level of urbanization(Hu et al., 2017). The algorithm based on decision trees can predict the optimal model of SPIS.</p>
+<p>How processing:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/flowchart.png" class="img-fluid figure-img" width="314"></p>
+<figcaption class="figure-caption">Procedure for SPIS mapping using the classification and regression tree (CART) algorithm and multi-source remote sensing data(Hu et al., 2017)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Based on this flowchart, the SPIS estimation accuracy of this study is high and fitting the effect.</p>
+<p>The figure below is an image formed by remote sensing based on the decision tree criterion. This figure can clearly see the ratio of SPIS.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/BJ.png" class="img-fluid figure-img" width="677"></p>
+<figcaption class="figure-caption">Distribution of SPIS values within Beijing Municipality in 2005(Hu et al., 2017)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>In this study, after some data processing and analysis, the research questions of this article can be well proved. The contribution of decision trees in this study is very significant.</p>
+</section>
+<section id="reflection" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>
+<p>The application of decision trees takes the difficulty of remote sensing learning to a new level. Based on the algorithm, we can improve the accuracy of our remote sensing research. This is actually similar to what we have learned before. One is to improve the data accuracy, and this is to directly improve the visualization accuracy. Although I think it is very useful for my dissertation, I don’t know if I can do it because it is really difficult, especially the data construction part. I feel that the more I study, the more I feel that I still have a lot to improve, and I don’t know where my future will go. I hope I can cheer up and work harder.</p>
 
 
 </section>
