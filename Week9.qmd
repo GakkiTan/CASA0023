@@ -1,0 +1,25 @@
+---
+title: "Week9"
+---
+
+## Summary
+
+**Pre-classified data：**Data that have been preliminarily processed or categorized in remote sensing techniques.
+
+Examples of preclassified data include those based on surface type, vegetation cover or degree of urbanization. Such data are useful for environmental monitoring, land-use planning, disaster response and many other applications.
+
+**Object based image analysis (OBIA):** Segmenting an image into meaningful multidimensional objects and then classifying and analyzing those objects based on more than just a single pixel.
+
+1.  Remote sensing images are divided into groups of contiguous pixels with similar spectral features, textures or shapes by SLIC (Simple Linear Iterative Clustering).
+2.  Feature extraction by e.g. k-means.
+3.  Based on the extracted features, various classification algorithms (e.g., Decision Tree, Support Vector Machine, Random Forest, etc.) are used to assign objects to specific classes or categories.
+4.  Further analysis: Mostly used for environmental monitoring and urban planning, etc.
+
+**Sub pixel analysis：**Identify and quantify the mix of ground cover types within a pixel in an image.
+
+1.  SMA determines the proportion or abundance of landcover per pixel.
+2.  By analyzing the spectral properties of the pixels, it is possible to estimate the proportion of the contribution of the basic constituent units of the spectra of different surface types in each pixel.
+3.  Endmember Extraction.
+4.  Further analysis.
+
+**Accuracy assessment:**
