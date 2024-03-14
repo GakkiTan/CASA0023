@@ -131,5 +131,12 @@
     "title": "6  Week8",
     "section": "6.3 Reflection",
     "text": "6.3 Reflection\nThe application of decision trees takes the difficulty of remote sensing learning to a new level. Based on the algorithm, we can improve the accuracy of our remote sensing research. This is actually similar to what we have learned before. One is to improve the data accuracy, and this is to directly improve the visualization accuracy. Although I think it is very useful for my dissertation, I don’t know if I can do it because it is really difficult, especially the data construction part. I feel that the more I study, the more I feel that I still have a lot to improve, and I don’t know where my future will go. I hope I can cheer up and work harder."
+  },
+  {
+    "objectID": "Week9.html#summary",
+    "href": "Week9.html#summary",
+    "title": "7  Week9",
+    "section": "7.1 Summary",
+    "text": "7.1 Summary\nPre-classified data：Data that have been preliminarily processed or categorized in remote sensing techniques.\nExamples of preclassified data include those based on surface type, vegetation cover or degree of urbanization. Such data are useful for environmental monitoring, land-use planning, disaster response and many other applications.\nObject based image analysis (OBIA): Segmenting an image into meaningful multidimensional objects and then classifying and analyzing those objects based on more than just a single pixel.\n\nRemote sensing images are divided into groups of contiguous pixels with similar spectral features, textures or shapes by SLIC (Simple Linear Iterative Clustering).\nFeature extraction by e.g. k-means.\nBased on the extracted features, various classification algorithms (e.g., Decision Tree, Support Vector Machine, Random Forest, etc.) are used to assign objects to specific classes or categories.\nFurther analysis: Mostly used for environmental monitoring and urban planning, etc.\n\nSub pixel analysis：Identify and quantify the mix of ground cover types within a pixel in an image.\n\nSMA determines the proportion or abundance of landcover per pixel.\nBy analyzing the spectral properties of the pixels, it is possible to estimate the proportion of the contribution of the basic constituent units of the spectra of different surface types in each pixel.\nEndmember Extraction.\nFurther analysis.\n\nAccuracy assessment:"
   }
 ]
