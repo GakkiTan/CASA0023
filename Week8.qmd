@@ -1,5 +1,5 @@
 ---
-title: "Week8"
+title: "Week8---Classification1"
 ---
 
 ## Summary
@@ -55,3 +55,7 @@ In this study, after some data processing and analysis, the research questions o
 ## Reflection
 
 The application of decision trees takes the difficulty of remote sensing learning to a new level. Based on the algorithm, we can improve the accuracy of our remote sensing research. This is actually similar to what we have learned before. One is to improve the data accuracy, and this is to directly improve the visualization accuracy. Although I think it is very useful for my dissertation, I don't know if I can do it because it is really difficult, especially the data construction part. I feel that the more I study, the more I feel that I still have a lot to improve, and I don't know where my future will go. I hope I can cheer up and work harder.
+
+## Reference
+
+Hu, D., Chen, S., Qiao, K. and Cao, S. (2017). \'Integrating CART algorithm and multi-source remote sensing data to estimate sub-pixel impervious surface coverage: a case study from Beijing Municipality, China\'. *Chinese Geographical Science*, 27 (4), pp. 614--625. doi: [10.1007/s11769-017-0882-x](https://doi.org/10.1007/s11769-017-0882-x).

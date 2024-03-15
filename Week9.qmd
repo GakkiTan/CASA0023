@@ -1,5 +1,5 @@
 ---
-title: "Week9"
+title: "Week9---Classification2"
 ---
 
 ## Summary
@@ -60,3 +60,9 @@ knitr::include_graphics("images/classification2.jpeg")
 Sub pixel classification, as a new concept, is actually quite difficult to understand in application, and the calculation process is very complicated, to be honest I have not been able to understand his meaning very well in all these articles I have read.
 
 However, it is now widely used in land cover and land use classification, for example, in areas where blurred boundaries or mixed pixels are common, sub-pixel analysis can provide more accurate classification results. There is also vegetation cover estimation, which can accurately quantify the proportion of vegetation cover in a pixel for environmental monitoring and agricultural research. As well as water monitoring, which accurately analyzes the distribution of water bodies and other features in areas such as rivers, lakes, and coastlines. It's interesting to note that these natural changes can also lead to urban sprawl, and it's one of the studies on this part that I cited in last week's literature. Sub pixel classification is still useful for detecting urban change.
+
+## Reference
+
+Atkinson, P. M. (2005). \'Sub-pixel Target Mapping from Soft-classified, Remotely Sensed Imagery\'. *Photogrammetric Engineering & Remote Sensing*, 71 (7), pp. 839--846. doi: [10.14358/PERS.71.7.839](https://doi.org/10.14358/PERS.71.7.839).
+
+Mertens, K. C., de Baets, B., Verbeke, L. P. C. and de Wulf, R. R. (2006). \'A sub‐pixel mapping algorithm based on sub‐pixel/pixel spatial attraction models\'. *International Journal of Remote Sensing*. Taylor & Francis, 27 (15), pp. 3293--3310. doi: [10.1080/01431160500497127](https://doi.org/10.1080/01431160500497127).

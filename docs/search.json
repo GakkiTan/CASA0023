@@ -9,14 +9,14 @@
   {
     "objectID": "Week1.html#summary",
     "href": "Week1.html#summary",
-    "title": "1  Week1",
+    "title": "1  Week1—Intro to RS",
     "section": "1.1 Summary",
     "text": "1.1 Summary\nRemote sensing is a technique for observing and measuring objects or phenomena by analyzing data collected from a location distant from the object or phenomenon, usually using aircraft or satellites.\nThe main features of remote sensing include:\n\nNon-contact observations: It is possible to make observations without coming into physical contact with the target by using remote sensing techniques. This is especially crucial for monitoring dangerous or inaccessible regions.\nWide-ranging coverage: It is challenging to conduct widespread remote sensing with ground-based observations. Instead, satellite or airplane platforms can cover large areas.\nMulti-spectral observations: Remote sensing techniques usually include observations in different wavelength ranges, such as visible, infrared and radar. This makes it possible to acquire different types of information.\nTime-series analysis: Changes in the environment or the land surface can be tracked and examined by routinely gathering remote sensing data for the same region.\nData processing and analysis: In order to extract valuable information from remote sensing data, specialist software is typically required."
   },
   {
     "objectID": "Week1.html#applications",
     "href": "Week1.html#applications",
-    "title": "1  Week1",
+    "title": "1  Week1—Intro to RS",
     "section": "1.2 Applications",
     "text": "1.2 Applications\nAlso, remote sensing has two types.\n\n\n\n\n\nMicrowave remote sensing is an example of active remote sensing, which actively produces electromagnetic waves and collects reflected signals for imaging. On the other hand, visible light remote sensing, which passively picks up electromagnetic waves that a feature emits or reflects, is an example of passive remote sensing. The imaging technique is the primary distinction.\nThe practical section focuses on how to get started with remote sensing data, with particular attention to the acquisition and processing of Sentinel and Landsat data. It covers the selection of source data, basic raster image statistics and processing, and an assessment of the advantages and disadvantages of the different software used. Methods for extracting and statistically comparing spectral signatures are also covered. For example, Nagendra’s study on biodiversity in 2001 solved some of the problems regarding the inability to identify the underlying areas through remote sensing techniques and their improvement."
   },
@@ -30,42 +30,42 @@
   {
     "objectID": "Week1.html#reflections",
     "href": "Week1.html#reflections",
-    "title": "1  Week1",
+    "title": "1  Week1—Intro to RS",
     "section": "1.3 Reflections",
     "text": "1.3 Reflections\nRemote sensing is new to me, and my ideal career would be a GIS engineer, and I think this would be very generalizable (and a bit difficult) at work. Learning remote sensing involves not only understanding complex scientific principles and technical operations, but also interpreting and applying the data. This is a bit of a concern for me and tests my data handling skills more. This learning process enhances the ability to analyze and solve practical problems. I hope I can learn more later on."
   },
   {
     "objectID": "Week3.html#summary",
     "href": "Week3.html#summary",
-    "title": "3  Week3",
+    "title": "3  Week3—Corrections",
     "section": "3.1 Summary",
     "text": "3.1 Summary\nHere are several types of correction.\n\nGeometric correction: Used to correct geometric aberrations in satellite or aerial images caused by the curvature of the earth, terrain relief, tilt angle of the sensor etc.\nAtmospheric correction: Used to remove the negative effects of changes in light intensity and wavelength due to the interaction of light with particles and gases in the atmosphere as it passes through the atmosphere, which can affect the accuracy of images and data captured by satellite or aerial sensors.\nOrthorectification correction: Corrects for image distortions due to satellite imaging angles, inhomogeneities in the Earth’s surface (e.g., mountains or buildings), and the curvature of the Earth. Satellite imagery is thus converted into a realistic, accurately scaled map representation so that each pixel of the image corresponds precisely to a specific geographic location on the Earth’s surface.\n\n(Radiometric Calibration: Ensure that images captured by satellite or aerial sensors are radiometrically accurate.)"
   },
   {
     "objectID": "Week3.html#applications",
     "href": "Week3.html#applications",
-    "title": "3  Week3",
+    "title": "3  Week3—Corrections",
     "section": "3.2 Applications",
     "text": "3.2 Applications\nEnhancement: Designed to improve the visual quality of an image, making features in the image more clearly recognizable.(E.g. Image Enhancement, Contrast Enhancement…)\n\n3.2.1 Ratio\nAccording to the practice, Normalized Difference Vegetation Index (NDVI) is primarily used to assess the density and health of surface vegetation. Based on the reflective properties of vegetation to solar radiation, especially in the red and near-infrared bands. Vegetation typically absorbs most of the red light (for photosynthesis) while reflecting more radiation in the near-infrared band.\nMy study area plot:\n\n\n\n\n\n\n\n3.2.2 Texture\nTexture analysis enhances the identifiability of objects or surface features in an image, especially in areas of single color or brightness. It describes the roughness, smoothness, and spatial distribution of these features on the surface of an object. By evaluating the relative position of pixels to each other and variations in brightness, texture analysis helps to extract more information about the surface.\n\n\n\n\n\nQuickBird test data acquired over the outskirts of Morgantown, WV, on 22 August 2002.(Warner, 2011)\n\n\n\n\nMy texture images looks very bad, so I use others. These images contains: the false color image on the left is probably going to be NIR, the image in the middle is a grayscale map of the red band, and the right is a grayscale map of the NIR band.\nIn this image we can see more clearly the farmland, houses, forests, etc. for further analysis.\n\n\n3.2.3 PCA\nPCA is a statistical method that transforms a set of possibly correlated variables into a set of linearly uncorrelated variables by orthogonal transformation, which is widely used for dimensionality reduction, data compression and feature extraction. It is used in remote sensing to improve contrast and remove unnecessary information."
   },
   {
     "objectID": "Week3.html#reflection",
     "href": "Week3.html#reflection",
-    "title": "3  Week3",
+    "title": "3  Week3—Corrections",
     "section": "3.3 Reflection",
     "text": "3.3 Reflection\nAfter this week’s class, I learned a lot about correction and enhancement, which in my understanding these are like makeup and Photoshop! When the camera takes a picture of our face and produces distortions, we can use Photoshop to adjust it to what it was supposed to look like, which is same as correction in remote sensing. When we feel that the photos are not in focus, we can adjust the contrast to make the photos look better, which is the same as the essence of enhancement in remote sensing. I wish I will more familiar with the code, I spend 6 hours to complete practical this week!"
   },
   {
     "objectID": "Week4.html#summary",
     "href": "Week4.html#summary",
-    "title": "4  Week4",
+    "title": "4  Week4—Urban policy",
     "section": "4.1 Summary",
     "text": "4.1 Summary\nThe city I chose is Harbin, which is in the most northern province in China. As we all know, China’s main productive force is the primary industry. Harbin has unique geographical advantages. Its land is black soil and is known as the “Granary of China.” In the early years of the founding of the People’s Republic of China, heavy industry was also vigorously developed in Harbin. The region’s rich oil resources were once known as the “cradle of socialist industrial construction.”\nIt is precisely due to excessive mining and crop planting that Harbin’s soil fertility has declined, and the land has even become desertified. Coupled with the development of heavy industry, rivers have become seriously polluted and the land has become salinized. In the past decade, China’s industrial structure has gradually shifted from heavy industry to light industry and high-tech. Heilongjiang Province’s per capita GDP has shown a rapid downward trend, and young people have gradually left their hometowns to work in big cities, resulting in a serious aging of the population in Harbin. Industrial transformation is also tending in an awkward situation.\nTherefore, there is a very sad saying among local university students: “For our generation, the purpose of studying is to leaving.”\nIn order to respond to the “Several Opinions of the Central Committee of the Communist Party of China and the State Council on Comprehensively Revitalizing Old Industrial Bases such as Northeast China” and revitalize Heilongjiang, the picture below shows remote sensing data of land use changes in Heilongjiang Province from 1980 to 2020.\n\n\n\n\n\nDifferent land use categories and their changes in Heilongjiang from 1980 to 2020.(Jiang et al.,2023)"
   },
   {
     "objectID": "Week4.html#applications",
     "href": "Week4.html#applications",
-    "title": "4  Week4",
+    "title": "4  Week4—Urban policy",
     "section": "4.2 Applications",
     "text": "4.2 Applications\nThe main data used in this map are meteorological data, digital elevation model data (DEM) and land use data.\nThe reduction of unused land and forest areas, as well as the harvesting, use, and reclamation of forest land—such as converting farmland back to forest and afforestation—are plainly visible on the remote sensing-produced map above(Jiang et al.,2023). The development of Heilongjiang has been impeded by improper land usage, which has intensified environmental risks.\nThe picture below is a water body map of four provinces extracted through MLP neural network based on Landsat8. It can be observed that the rivers in Harbin are distributed in a strip shape and are long and narrow. Therefore, once the water body is polluted, its self-purification ability will be very poor, and it will be difficult to restore the water body. Pollution from heavy industry requires a lot of time for rivers to recover, and efforts should be made to avoid industrial re-pollution of water.\n\n\n\n\n\nThe extraction performance of different surface water types using MLP neural network, (a) river in Heilongjiang province, (b) lake in Tibet autonomous region, (c) aquacultural water in Jiangsu province, (d) sea water in Guangdong province.(Jiang et al.,2020)\n\n\n\n\nBased on the problems displayed by these maps, we can give some preliminary improvement methods. The first is to further return farmland to forest to avoid further weakening and erosion of black soil.\nSecondly, because Heilongjiang has a strong initial industrial accumulation, it can consider industrial transformation from heavy industry to light import and export industry. Harbin is near Russia in the north and the Sea of Japan and the Yellow Sea in the east, making import, export and transportation more convenient.\nIt is worth noting that Harbin is also very suitable for developing tourism. Due to Harbin’s high latitude, the outdoor temperature in winter can reach more than 20 degrees below zero. This year, the Heilongjiang Provincial Tourism Bureau has begun to vigorously promote Harbin’s “Ice and Snow World” project, which is to build large-scale ice sculptures and ice sculpture amusement facilities. According to a report from Time Weekly, from January 1 to 3, 2024, tourism revenue of nearly 6 billion yuan was achieved. This amazing rate of return makes it worthwhile for the Tourism Bureau to continue to improve tourism-related supporting facilities and promote the further development of its tourism industry."
   },
@@ -86,78 +86,148 @@
   {
     "objectID": "Week7.html#summary",
     "href": "Week7.html#summary",
-    "title": "5  Week7",
+    "title": "5  Week7—GEE",
     "section": "5.1 Summary",
     "text": "5.1 Summary\nGoogle Earth Engine brings together satellite imagery data from past decades to the present, including topographic maps, climate change data and other geospatial data. These datasets are pre-processed and stored in Google’s cloud for easy access and analysis.\nGEE mainly uses Javascript to programming. Different from the QGIS, GEE converts all data into the Mercator projection when displayed.\nBy choosing the layers, you can keep whatever you want. E.g.:\n\n\n\n\n\nAnother initial part is reducing images. This usually involves reducing the size, resolution, or amount of remotely sensed image data, which serves several purposes.\n\nEnhance processing speed.\nSaving storage space:fast transmission.\nRemove redundant information: key data are more prominent.\nData integration: effective comparison and analysis.\nImproved analysis accuracy.\nAdaptation to algorithmic needs: Some image processing algorithms or machine learning models require input data with a fixed size or resolution.\n\nAlso linear regression has an important role in GEE to determine trends, variable correlation analysis and model prediction."
   },
   {
     "objectID": "Week7.html#application",
     "href": "Week7.html#application",
-    "title": "5  Week7",
+    "title": "5  Week7—GEE",
     "section": "5.2 Application",
     "text": "5.2 Application\nGorelick et al.(2017) illustrates GEE utilizes a catalog of satellite image data sets to study climate, vegetation, soil, water and many environmental factors and map and quantify changes, trends and trend differences.\nBelow is a map of Iran made with GEE by Jamali et al(2022).\n\n\n\n\n\nFig. 1. a Map view showing the study locales in the world with hot and cold airflow hotspots b Iran was located between increasing anomaly from the west and decreasing anomaly from north and east affected of hot and cold airflow hotspots (NOAA, 2021) c LST, d precipitation e EVI and of different land uses in Iran f Tehran Sentinel 2 RGB 843 Tehran Jamaran g LST was calculated in GEE using Landsat 8 image for Tehran Jamaran h EVI was calculated in GEE using Landsat 8 image for Tehran Jamaran for zoomed sample, precipitation in this scale had not variation map. (Jamali et al.,2022)\n\n\n\n\nThese images can be analyzed in this article to study climate change, vegetation dynamics, and land cover changes in the Iranian region to further study the relationship between surface temperature anomalies and the environment.\nAlthough the operation and visual analysis of GEE has been much better compared to SNAP and QGIS, the problems still exist. One of the most noteworthy is that causality is not clear, e.g. correlations observed from remotely sensed data do not necessarily reflect causality. In the case of this illustration, surface temperature anomalies could be the result of environmental changes or the effect of other unobserved variables. This makes the picture complex and still requires subsequent data analysis and processing. And there is a lack of ground validation, with limited ground observations available in many cases. These may be attributed to the limitations of the model and algorithms, which need to be followed up with continuous improvement in order for us beginners to get a better handle on observing remote sensing images."
   },
   {
     "objectID": "Week7.html#reflection",
     "href": "Week7.html#reflection",
-    "title": "5  Week7",
+    "title": "5  Week7—GEE",
     "section": "5.3 Reflection",
     "text": "5.3 Reflection\nGEE is friendly for remote sensing beginners, eliminates the complexity of looking up options, very intuitive to see areas such as Landsat8’s image, which it overlays on previous maps, and can zoom in and out and slide randomly, very interesting and good to watch. And just some simple Javascript writing, which is better for those of us who are not familiar with the code.\nGoogle’s pioneering in maps is something I’ve always admired, I’ve enjoyed looking at live satellite maps on Google maps before, because he often captures some very interesting images, I’ve even seen my friends :) and the challenge of guessing regions on live satellite maps on the Youtube before was also very interesting, which is a great way for outsiders to get a better understanding of the geographic world, and a great way for insiders to get a better understanding of the world of geography. GEE in a way could work similarly for us, except that the term remote sensing can sound disinteresting, but it’s actually quite inspiring. I think I’ll spend more time with GEE and try to find out some of its hidden “tricks”."
   },
   {
     "objectID": "Week4.html#reflection",
     "href": "Week4.html#reflection",
-    "title": "4  Week4",
+    "title": "4  Week4—Urban policy",
     "section": "4.3 Reflection",
     "text": "4.3 Reflection\nThe processing of remote sensing technology can very intuitively see the land resources and changes in the study area, which is very helpful for us to analyze land utilization. These studies can identify areas and directions for improvement. Regarding the choice of region, I think Harbin in China is a very typical region (similar e.g. Detroit in the United States). The recovery of soil erosion and water pollution caused by heavy industry is a long-term process, but it must also be Make full use of its accumulated resources, because economy is the most important factor affecting a region, and the income from other industries can be invested in improving the natural environment."
   },
   {
     "objectID": "Week8.html#summary",
     "href": "Week8.html#summary",
-    "title": "6  Week8",
+    "title": "6  Week8—Classification1",
     "section": "6.1 Summary",
     "text": "6.1 Summary\nThis week’s study of decision trees, I was also learned in another course. It is mainly used to solve classification and regression problems. This week’s lecture introduced the topic through some environmental problems (which was very interesting because I want to write about it for my dissertation) and then talked about what classification and regression trees (CART) are.\nPrinciple：The CART model constructs a decision tree by recursively partitioning the dataset into smaller subsets while creating a decision node for each subset.\nDifference：\nClassification trees are used for the prediction of discrete response variables. They create partitions by maximizing the impurity between different classes, and commonly used impurity measures are the Gini index or entropy.\nRegression trees are used for the prediction of continuous response variables. They create partitions by minimizing the total squared error in each partition (i.e., the sum of the squares of the differences between the values at each node and the actual values at all points in the node).\nWhen a decision tree is overfitted, the problem needs to be mitigated by pruning, setting a maximum depth, or requiring a minimum number of samples contained in a node.\nRandom Forest：Improve overall prediction accuracy by combining predictions from multiple decision trees.\nRandom forests then solve the overfitting problem of the decision trees just mentioned, with random feature selection and self-sampling, random forests are less prone to overfitting than individual decision trees.\nImage classification：Aims to classify pixels in remote sensing images into different categories to identify and analyze different features of the ground surface, such as vegetation, water bodies, roads, buildings, and so on.\nUnsupervised does not require large amounts of training data to be collected and labeled beforehand, and is suitable for situations where labeled data is lacking or costly to obtain.\nClustering algorithms (e.g., K-means) are applied to automatically group pixels into classes based on their spectral features. These algorithms attempt to cluster pixels with similar features together to form class clusters.\nSupervised evaluates the accuracy of the classification by comparing the classification results to a set of independent validation samples of known class.\nMaximum Likelihood Classification (MLC) is a widely used supervised classification technique. Classification is performed by estimating the probability that a pixel belongs to each predefined category.\nSupport Vector Machine (SVM) is used to solve classification and regression problems.SVM aims to find optimal boundaries (called hyperplanes) between different classes to maximize the edges between different classes. This method is particularly effective in high-dimensional spaces and is therefore well suited for processing multi-band remote sensing data."
   },
   {
     "objectID": "Week8.html#application",
     "href": "Week8.html#application",
-    "title": "6  Week8",
+    "title": "6  Week8—Classification1",
     "section": "6.2 Application",
     "text": "6.2 Application\nThe percentage of sub-pixel impervious area (SPIS) is the proportion of impervious surface area in a pixel and is an important indicator of the level of urbanization(Hu et al., 2017). The algorithm based on decision trees can predict the optimal model of SPIS.\nHow processing:\n\n\n\n\n\nProcedure for SPIS mapping using the classification and regression tree (CART) algorithm and multi-source remote sensing data(Hu et al., 2017)\n\n\n\n\nBased on this flowchart, the SPIS estimation accuracy of this study is high and fitting the effect.\nThe figure below is an image formed by remote sensing based on the decision tree criterion. This figure can clearly see the ratio of SPIS.\n\n\n\n\n\nDistribution of SPIS values within Beijing Municipality in 2005(Hu et al., 2017)\n\n\n\n\nIn this study, after some data processing and analysis, the research questions of this article can be well proved. The contribution of decision trees in this study is very significant."
   },
   {
     "objectID": "Week8.html#reflection",
     "href": "Week8.html#reflection",
-    "title": "6  Week8",
+    "title": "6  Week8—Classification1",
     "section": "6.3 Reflection",
     "text": "6.3 Reflection\nThe application of decision trees takes the difficulty of remote sensing learning to a new level. Based on the algorithm, we can improve the accuracy of our remote sensing research. This is actually similar to what we have learned before. One is to improve the data accuracy, and this is to directly improve the visualization accuracy. Although I think it is very useful for my dissertation, I don’t know if I can do it because it is really difficult, especially the data construction part. I feel that the more I study, the more I feel that I still have a lot to improve, and I don’t know where my future will go. I hope I can cheer up and work harder."
   },
   {
     "objectID": "Week9.html#summary",
     "href": "Week9.html#summary",
-    "title": "7  Week9",
+    "title": "7  Week9—Classification2",
     "section": "7.1 Summary",
     "text": "7.1 Summary\nPre-classified data：Data that have been preliminarily processed or categorized in remote sensing techniques.\nExamples of preclassified data include those based on surface type, vegetation cover or degree of urbanization. Such data are useful for environmental monitoring, land-use planning, disaster response and many other applications.\nObject based image analysis (OBIA): Segmenting an image into meaningful multidimensional objects and then classifying and analyzing those objects based on more than just a single pixel.\n\nRemote sensing images are divided into groups of contiguous pixels with similar spectral features, textures or shapes by SLIC (Simple Linear Iterative Clustering).\nFeature extraction by e.g. k-means.\nBased on the extracted features, various classification algorithms (e.g., Decision Tree, Support Vector Machine, Random Forest, etc.) are used to assign objects to specific classes or categories.\nFurther analysis: Mostly used for environmental monitoring and urban planning, etc.\n\nSub pixel analysis：Identify and quantify the mix of ground cover types within a pixel in an image.\n\nSMA determines the proportion or abundance of landcover per pixel.\nBy analyzing the spectral properties of the pixels, it is possible to estimate the proportion of the contribution of the basic constituent units of the spectra of different surface types in each pixel.\nEndmember Extraction.\nFurther analysis.\n\nAccuracy assessment:\nComponent:\n\nConfusion Matrix: The confusion matrix is a central tool for accuracy assessment, showing the relationship between the actual categories (ground truth data) and the classification results of remotely sensed data.\nOverall Accuracy\nKappa Coefficient: Kappa coefficient values range from -1 to 1, with higher values indicating better consistency.\nUser’s Accuracy and Producer’s Accuracy\n\nReceiver Operating Characteristic Curve: Changing the threshold value of classifier will change.\nCross validation:\n\nK-Fold Cross Validation means the proportion of classes in each fold will reflect the proportion of classes in the entire dataset as closely as possible.\nSpatial cross validation specifically designed to take into account spatial correlation. Which including space grouping and spacial divition. (Notably, spatial autocorrelation also needs to be considered)"
   },
   {
     "objectID": "Week9.html#applications",
     "href": "Week9.html#applications",
-    "title": "7  Week9",
+    "title": "7  Week9—Classification2",
     "section": "7.2 Applications",
     "text": "7.2 Applications\nSub pixel classification is mainly based on the Spectral Unmixing technique, which assumes that the spectral reflectance of a pixel can be expressed as a weighted average of the spectral reflectance of the individual ground cover types within it.\n\n\n\n\n\nOverview of the sub‐pixel mapping process in a 3×3 pixel scene, adapted from Atkinson (1997).\n\n\n\n\nThe image that follows is a sub-pixel map of the fractional image with additional noise, derived from a regional imaging map of Cameroon. More isolated pixels and less precise readings are the result of higher noise levels. Due to the lack of spatial information inside pixels and the ensuing assumptions about spatial dependency, the inclusion of noise so amply illustrates that the quality of soft categorization is a vital aspect for the success of sub-pixel mapping.\n\n\n\n\n\nCameroon Example(Koen et al., 2007)"
   },
   {
     "objectID": "Week9.html#reflection",
     "href": "Week9.html#reflection",
-    "title": "7  Week9",
+    "title": "7  Week9—Classification2",
     "section": "7.3 Reflection",
     "text": "7.3 Reflection\nSub pixel classification, as a new concept, is actually quite difficult to understand in application, and the calculation process is very complicated, to be honest I have not been able to understand his meaning very well in all these articles I have read.\nHowever, it is now widely used in land cover and land use classification, for example, in areas where blurred boundaries or mixed pixels are common, sub-pixel analysis can provide more accurate classification results. There is also vegetation cover estimation, which can accurately quantify the proportion of vegetation cover in a pixel for environmental monitoring and agricultural research. As well as water monitoring, which accurately analyzes the distribution of water bodies and other features in areas such as rivers, lakes, and coastlines. It’s interesting to note that these natural changes can also lead to urban sprawl, and it’s one of the studies on this part that I cited in last week’s literature. Sub pixel classification is still useful for detecting urban change."
   },
   {
     "objectID": "Week10.html#summary",
     "href": "Week10.html#summary",
-    "title": "8  Week10",
+    "title": "8  Week10—SAR",
     "section": "8.1 Summary",
-    "text": "8.1 Summary\nTwo types of sensor: active and passive. (Which we have learnt at week1)\nSAR works by utilizing the properties of radar wavelengths to detect conditions on the ground. It is mounted on satellites or airplanes that transmit radar waves to the ground and collect the signals reflected back. Unlike optical remote sensing, SAR is able to operate at night or in cloudy and rainy weather conditions because the radar waves can penetrate clouds and a certain level of vegetation.\nThe picture below shows the working principle of SAR.\n\n\n\n\n\nSource from: https://zhuanlan.zhihu.com/p/98053986\n\n\n\n\nAmplitude (backscatter) and phase：A high amplitude value usually means that the target is highly reflective and vice versa. For example, wet ground, buildings and rocks reflect radar waves strongly and appear as bright areas on the image, while bodies of water absorb more radar waves and usually appear as dark areas.\nDifferential Interferometric Synthetic Aperture Radar (DInSAR) & SAR\n\n\n\n\n\n\n\n\n\nSAR\nDInSAR\n\n\n\n\nPrinciple\nRadar waves are used to illuminate the surface and collect reflected signals, generating high-resolution images based on the intensity (amplitude) and phase of the reflected signals.\nBased on two or more SAR images acquired at different times, small deformations of the surface are measured by calculating the phase difference.\n\n\nExport\nLand surface features\nSmall movements or deformations of the land surface\n\n\nMainly use for\nLand surface cover classification, Environmental monitoring, Ocean and Ice sheet observations etc.\nEarthquakes, Volcanic activity, Landslides, Urban subsidence and Glacial flow monitoring etc."
+    "text": "8.1 Summary\nTwo types of sensor: active and passive. (Which we have learnt at week1)\nSAR works by utilizing the properties of radar wavelengths to detect conditions on the ground. It is mounted on satellites or airplanes that transmit radar waves to the ground and collect the signals reflected back. Unlike optical remote sensing, SAR is able to operate at night or in cloudy and rainy weather conditions because the radar waves can penetrate clouds and a certain level of vegetation.\nThe picture below shows the working principle of SAR.\n\n\n\n\n\nSource from: https://zhuanlan.zhihu.com/p/98053986\n\n\n\n\nAmplitude (backscatter) and phase：A high amplitude value usually means that the target is highly reflective and vice versa. For example, wet ground, buildings and rocks reflect radar waves strongly and appear as bright areas on the image, while bodies of water absorb more radar waves and usually appear as dark areas.\nDifferential Interferometric Synthetic Aperture Radar (DInSAR) & SAR\n\n\n\n\n\n\n\n\n\nSAR\nDInSAR\n\n\n\n\nPrinciple\nRadar waves are used to illuminate the surface and collect reflected signals, generating high-resolution images based on the intensity (amplitude) and phase of the reflected signals.\nBased on two or more SAR images acquired at different times, small deformations of the surface are measured by calculating the phase difference.\n\n\nExport\nLand surface features\nSmall movements or deformations of the land surface\n\n\nMainly use for\nLand surface cover classification, Environmental monitoring, Ocean and Ice sheet observations etc.\nEarthquakes, Volcanic activity, Landslides, Urban subsidence and Glacial flow monitoring etc.\n\n\n\nHow to identifying change?\n\nsubtract images: The difference between two SAR images of the same area acquired at different points in time was calculated by comparing their backscatter intensity (amplitude).\nRatio Change Detection: Calculate the backscatter intensity ratio of two images acquired at different time points.\nImproved ratio log ratio images: Improvements on traditional ratio and log-ratio methods aimed at enhancing the changing signal and reducing errors due to noise or non-uniformity of the scene.\n\nHow to choose the best way?\n\nBased on your image collection.\nAvailability and characterization of data.\nImage fusion. Especially methods that provide reliable results in the face of data noise and imperfections."
+  },
+  {
+    "objectID": "Week10.html#applications",
+    "href": "Week10.html#applications",
+    "title": "8  Week10—SAR",
+    "section": "8.2 Applications",
+    "text": "8.2 Applications\nWith respect to the DInSAR that was discussed this week, its spatial sampling is non-uniform. Generally speaking, locations with smooth surfaces, greenery, and woods have lower sampling densities. Certain events, such snow, construction, and street repaving, can cause a temporary or total loss of MP. When analyzing DInSAR data, two primary target kinds can be taken into account(Ferretti et al., 2000). Typically, persistent scatterers (PS) are point-like primary targets that respond steadily to SAR microwaves over an extended period of time. PS are typically found in large quantities on structures, wires, utility poles, antennas, bare rock, etc. DS(distributed scatterers) can be found in desert regions, cultivated fields, dispersed outcrops, areas covered in rubbish, etc. While A-DInSAR processing techniques focus only on PS or DS, several hybrid approaches have been proposed over the past decade.\nAlthough I did not find examples of blending, I did find examples of DInSAR in 3D. the 3D positions have an uncertainty of a few meters. Therefore this aspect to consider when interpreting is related to the geometry of the SAR image and the orbital tube, which directly affects the accuracy of the terrain error.\nBelow is a warehouse at a freight terminal in the Tuscany region of central Italy.DInSAR not only examined the commercial area, including several buildings, but found evidence of a persistent settlement phenomenon (cracks, foundation problems) caused by the consolidation of highly compressible organic and clay soils that characterize the subsurface of the area(Ciampalini et al., 2019). 3D geolocation was also performed, based on subpixel location analysis and local-scale data correction supported by external positioning data (e.g., ground control points or LiDAR point clouds) to ensure more accurate geolocation. for subsequent analysis and resolution.\n\n\n\n\n\nGeolocation accuracy in the Livorno freight terminal, western Tuscany. Displayed numbers refer to the accuracy of the height estimation with respect to the reference DEM (in meters); (B) Mining-related subsidence in the North Rhine–Westphalia region, western Germany. Background image is an AGEA orthophoto 2016 for inset A and an ESRI World Imagery for inset B(Crosetto et al., 2020).\n\n\n\n\nDInSAR technology has undergone tremendous development over the past two decades. The most important result of this development has been the ability to process large volumes of SAR imagery, thus enabling wide-area DInSAR monitoring programs. In general DInSAR is capable of detecting extremely small surface deformations (millimeter scale), thus detecting subtle changes in the surface, which is important for disaster prevention and management."
+  },
+  {
+    "objectID": "Week10.html#reflection",
+    "href": "Week10.html#reflection",
+    "title": "8  Week10—SAR",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection\nThis week’s study was about SAR, I was more concerned about the difference between SAR and DInSAR, then I realized the amazing difference between the two.SAR mainly detects the surface condition, while DInSAR detects the subtle changes on the surface, so it can be said that DInSAR is an advanced version of SAR. For the current global warming problem, DInSAR will have more to build on this problem.\nIt’s the last week of notes, and it feels like time is going by so fast, and this seems to be my last class in graduate school. I hope I can write my thesis properly and graduate successfully!"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Crosetto, M., Solari, L., Mróz, M., Balasis-Levinsen, J., Casagli, N., Frei, M., Oyen, A., Moldestad, D. A., Bateson, L., Guerrieri, L., Comerci, V. and Andersen, H. S. (2020). 'The Evolution of Wide-Area DInSAR: From Regional and National Services to the European Ground Motion Service'. Remote Sensing. Multidisciplinary Digital Publishing Institute, 12 (12), p. 2043. doi: 10.3390/rs12122043.\nEvaluation of subsidence induced by long-lasting buildings load using InSAR technique and geotechnical data: The case study of a Freight Terminal (Tuscany, Italy) - ScienceDirect. (no date). Available at: https://www.sciencedirect.com/science/article/pii/S0303243419301722 (Accessed: 15 March 2024).\nFerretti, A., Prati, C. and Rocca, F. (2000). 'Nonlinear subsidence rate estimation using permanent scatterers in differential SAR interferometry'. IEEE Transactions on Geoscience and Remote Sensing. IEEE Transactions on Geoscience and Remote Sensing, 38 (5), pp. 2202–2212. doi: 10.1109/36.868878.\nGoogle Earth Engine: Planetary-scale geospatial analysis for everyone - ScienceDirect. (no date). Available at: https://www.sciencedirect.com/science/article/pii/S0034425717302900?via%3Dihub (Accessed: 25 February 2024).\nHu, D., Chen, S., Qiao, K. and Cao, S. (2017). 'Integrating CART algorithm and multi-source remote sensing data to estimate sub-pixel impervious surface coverage: a case study from Beijing Municipality, China'. Chinese Geographical Science, 27 (4), pp. 614–625. doi: 10.1007/s11769-017-0882-x.\nJamali, A. A., Ghorbani Kalkhajeh, R., Randhir, T. O. and He, S. (2022). 'Modeling relationship between land surface temperature anomaly and environmental factors using GEE and Giovanni'. Journal of Environmental Management, 302, p. 113970. doi: 10.1016/j.jenvman.2021.113970.\nJiang, N., Yao, F., Liu, T., Chen, Z., Hu, C. and Geng, X. (2023a). 'Estimating the Soil Erosion Response to Land-Use Change Using GIS-Based RUSLE and Remote Sensing: A Case Study of Heilongjiang Province, China'. Sustainability. Multidisciplinary Digital Publishing Institute, 15 (10), p. 8004. doi: 10.3390/su15108004.\nJiang, N., Yao, F., Liu, T., Chen, Z., Hu, C. and Geng, X. (2023b). 'Estimating the Soil Erosion Response to Land-Use Change Using GIS-Based RUSLE and Remote Sensing: A Case Study of Heilongjiang Province, China'. Sustainability. Multidisciplinary Digital Publishing Institute, 15 (10), p. 8004. doi: 10.3390/su15108004.\nJiang, W., He, G., Pang, Z., Guo, H., Long, T. and Ni, Y. (2020). 'Surface water map of China for 2015 (SWMC-2015) derived from Landsat 8 satellite imagery'. Remote Sensing Letters. Taylor & Francis, 11 (3), pp. 265–273. doi: 10.1080/2150704X.2019.1708501.\nMertens, K. C., de Baets, B., Verbeke, L. P. C. and de Wulf, R. R. (2006). 'A sub‐pixel mapping algorithm based on sub‐pixel/pixel spatial attraction models'. International Journal of Remote Sensing. Taylor & Francis, 27 (15), pp. 3293–3310. doi: 10.1080/01431160500497127.\nWu, Z., Huang, Y. and Zhang, K. (2018). 'Remote Sensing Image Fusion Method Based on PCA and Curvelet Transform'. Journal of the Indian Society of Remote Sensing, 46 (5), pp. 687–695. doi: 10.1007/s12524-017-0736-0."
+  },
+  {
+    "objectID": "Week1.html#reference",
+    "href": "Week1.html#reference",
+    "title": "1  Week1—Intro to RS",
+    "section": "1.4 Reference",
+    "text": "1.4 Reference\nNagendra, H. (2001). Using remote sensing to assess biodiversity: International Journal of Remote Sensing: Vol 22, No 12. Available at: https://www.tandfonline.com/doi/abs/10.1080/01431160117096?casa_token=5_dfr41l-38AAAAA:8Yz74SjFwZHdrUAsHntUx2ThAMcOqIHCdcdcS-CS1WKhccTggBEZa4XOHX3NTw1a84AXY0Pg4ZUE (Accessed: 15 March 2024)."
+  },
+  {
+    "objectID": "Week3.html#reference",
+    "href": "Week3.html#reference",
+    "title": "3  Week3—Corrections",
+    "section": "3.4 Reference",
+    "text": "3.4 Reference\nWarner, T. (2011). 'Kernel-Based Texture in Remote Sensing Image Classification'. Geography Compass, 5 (10), pp. 781–798. doi: 10.1111/j.1749-8198.2011.00451.x."
+  },
+  {
+    "objectID": "Week4.html#reference",
+    "href": "Week4.html#reference",
+    "title": "4  Week4—Urban policy",
+    "section": "4.4 Reference",
+    "text": "4.4 Reference\nJiang, N., Yao, F., Liu, T., Chen, Z., Hu, C. and Geng, X. (2023). 'Estimating the Soil Erosion Response to Land-Use Change Using GIS-Based RUSLE and Remote Sensing: A Case Study of Heilongjiang Province, China'. Sustainability. Multidisciplinary Digital Publishing Institute, 15 (10), p. 8004. doi: 10.3390/su15108004.\nJiang, W., He, G., Pang, Z., Guo, H., Long, T. and Ni, Y. (2020). 'Surface water map of China for 2015 (SWMC-2015) derived from Landsat 8 satellite imagery'. Remote Sensing Letters. Taylor & Francis, 11 (3), pp. 265–273. doi: 10.1080/2150704X.2019.1708501."
+  },
+  {
+    "objectID": "Week7.html#reference",
+    "href": "Week7.html#reference",
+    "title": "5  Week7—GEE",
+    "section": "5.4 Reference",
+    "text": "5.4 Reference\nGorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D. and Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone - ScienceDirect. Available at: https://www.sciencedirect.com/science/article/pii/S0034425717302900?via%3Dihub (Accessed: 25 February 2024).\nJamali, A. A., Ghorbani Kalkhajeh, R., Randhir, T. O. and He, S. (2022). 'Modeling relationship between land surface temperature anomaly and environmental factors using GEE and Giovanni'. Journal of Environmental Management, 302, p. 113970. doi: 10.1016/j.jenvman.2021.113970."
+  },
+  {
+    "objectID": "Week8.html#reference",
+    "href": "Week8.html#reference",
+    "title": "6  Week8—Classification1",
+    "section": "6.4 Reference",
+    "text": "6.4 Reference\nHu, D., Chen, S., Qiao, K. and Cao, S. (2017). 'Integrating CART algorithm and multi-source remote sensing data to estimate sub-pixel impervious surface coverage: a case study from Beijing Municipality, China'. Chinese Geographical Science, 27 (4), pp. 614–625. doi: 10.1007/s11769-017-0882-x."
+  },
+  {
+    "objectID": "Week9.html#reference",
+    "href": "Week9.html#reference",
+    "title": "7  Week9—Classification2",
+    "section": "7.4 Reference",
+    "text": "7.4 Reference\nAtkinson, P. M. (2005). 'Sub-pixel Target Mapping from Soft-classified, Remotely Sensed Imagery'. Photogrammetric Engineering & Remote Sensing, 71 (7), pp. 839–846. doi: 10.14358/PERS.71.7.839.\nMertens, K. C., de Baets, B., Verbeke, L. P. C. and de Wulf, R. R. (2006). 'A sub‐pixel mapping algorithm based on sub‐pixel/pixel spatial attraction models'. International Journal of Remote Sensing. Taylor & Francis, 27 (15), pp. 3293–3310. doi: 10.1080/01431160500497127."
+  },
+  {
+    "objectID": "Week10.html#reference",
+    "href": "Week10.html#reference",
+    "title": "8  Week10—SAR",
+    "section": "8.4 Reference",
+    "text": "8.4 Reference\nCiampalini, A., Solari, L., Giannecchini, R., Galanti, Y. and Moretti, S. (2019). Evaluation of subsidence induced by long-lasting buildings load using InSAR technique and geotechnical data: The case study of a Freight Terminal (Tuscany, Italy) - ScienceDirect. Available at: https://www.sciencedirect.com/science/article/pii/S0303243419301722 (Accessed: 15 March 2024).\nCrosetto, M., Solari, L., Mróz, M., Balasis-Levinsen, J., Casagli, N., Frei, M., Oyen, A., Moldestad, D. A., Bateson, L., Guerrieri, L., Comerci, V. and Andersen, H. S. (2020). 'The Evolution of Wide-Area DInSAR: From Regional and National Services to the European Ground Motion Service'. Remote Sensing. Multidisciplinary Digital Publishing Institute, 12 (12), p. 2043. doi: 10.3390/rs12122043.\nFerretti, A., Prati, C. and Rocca, F. (2000). 'Nonlinear subsidence rate estimation using permanent scatterers in differential SAR interferometry'. IEEE Transactions on Geoscience and Remote Sensing. IEEE Transactions on Geoscience and Remote Sensing, 38 (5), pp. 2202–2212. doi: 10.1109/36.868878."
   }
 ]

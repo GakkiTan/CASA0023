@@ -1,5 +1,5 @@
 ---
-title: "Week2"
+title: "Week2---Xaringan"
 ---
 
 ```{r xaringan_embed, echo=FALSE, out.width='40%'}

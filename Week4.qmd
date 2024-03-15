@@ -1,5 +1,5 @@
 ---
-title: "Week4"
+title: "Week4---Urban policy"
 ---
 
 ## Summary
@@ -39,3 +39,9 @@ It is worth noting that Harbin is also very suitable for developing tourism. Due
 ## Reflection
 
 The processing of remote sensing technology can very intuitively see the land resources and changes in the study area, which is very helpful for us to analyze land utilization. These studies can identify areas and directions for improvement. Regarding the choice of region, I think Harbin in China is a very typical region (similar e.g. Detroit in the United States). The recovery of soil erosion and water pollution caused by heavy industry is a long-term process, but it must also be Make full use of its accumulated resources, because economy is the most important factor affecting a region, and the income from other industries can be invested in improving the natural environment.
+
+## Reference
+
+Jiang, N., Yao, F., Liu, T., Chen, Z., Hu, C. and Geng, X. (2023). \'Estimating the Soil Erosion Response to Land-Use Change Using GIS-Based RUSLE and Remote Sensing: A Case Study of Heilongjiang Province, China\'. *Sustainability*. Multidisciplinary Digital Publishing Institute, 15 (10), p. 8004. doi: [10.3390/su15108004](https://doi.org/10.3390/su15108004).
+
+Jiang, W., He, G., Pang, Z., Guo, H., Long, T. and Ni, Y. (2020). \'Surface water map of China for 2015 (SWMC-2015) derived from Landsat 8 satellite imagery\'. *Remote Sensing Letters*. Taylor & Francis, 11 (3), pp. 265--273. doi: [10.1080/2150704X.2019.1708501](https://doi.org/10.1080/2150704X.2019.1708501).

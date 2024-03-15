@@ -1,5 +1,5 @@
 ---
-title: "Week7"
+title: "Week7---GEE"
 ---
 
 ## Summary
@@ -45,3 +45,9 @@ Although the operation and visual analysis of GEE has been much better compared 
 GEE is friendly for remote sensing beginners, eliminates the complexity of looking up options, very intuitive to see areas such as Landsat8's image, which it overlays on previous maps, and can zoom in and out and slide randomly, very interesting and good to watch. And just some simple Javascript writing, which is better for those of us who are not familiar with the code.
 
 Google's pioneering in maps is something I've always admired, I've enjoyed looking at live satellite maps on Google maps before, because he often captures some very interesting images, I've even seen my friends :) and the challenge of guessing regions on live satellite maps on the Youtube before was also very interesting, which is a great way for outsiders to get a better understanding of the geographic world, and a great way for insiders to get a better understanding of the world of geography. GEE in a way could work similarly for us, except that the term remote sensing can sound disinteresting, but it's actually quite inspiring. I think I'll spend more time with GEE and try to find out some of its hidden "tricks".
+
+## Reference
+
+Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D. and Moore, R. (2017). *Google Earth Engine: Planetary-scale geospatial analysis for everyone - ScienceDirect*. Available at: [https://www.sciencedirect.com/science/article/pii/S0034425717302900?via%3Dihub](#0) (Accessed: 25 February 2024).
+
+Jamali, A. A., Ghorbani Kalkhajeh, R., Randhir, T. O. and He, S. (2022). \'Modeling relationship between land surface temperature anomaly and environmental factors using GEE and Giovanni\'. *Journal of Environmental Management*, 302, p. 113970. doi: [10.1016/j.jenvman.2021.113970](https://doi.org/10.1016/j.jenvman.2021.113970).

@@ -1,5 +1,5 @@
 ---
-title: "Week3"
+title: "Week3---Corrections"
 ---
 
 ## Summary
@@ -47,3 +47,7 @@ PCA is a statistical method that transforms a set of possibly correlated variabl
 ## Reflection
 
 After this week's class, I learned a lot about correction and enhancement, which in my understanding these are like makeup and Photoshop! When the camera takes a picture of our face and produces distortions, we can use Photoshop to adjust it to what it was supposed to look like, which is same as correction in remote sensing. When we feel that the photos are not in focus, we can adjust the contrast to make the photos look better, which is the same as the essence of enhancement in remote sensing. I wish I will more familiar with the code, I spend 6 hours to complete practical this week!
+
+## Reference
+
+Warner, T. (2011). \'Kernel-Based Texture in Remote Sensing Image Classification\'. *Geography Compass*, 5 (10), pp. 781--798. doi: [10.1111/j.1749-8198.2011.00451.x](https://doi.org/10.1111/j.1749-8198.2011.00451.x).

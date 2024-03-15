@@ -1,5 +1,5 @@
 ---
-title: "Week1"
+title: "Week1---Intro to RS"
 ---
 
 ## Summary
@@ -34,3 +34,7 @@ The practical section focuses on how to get started with remote sensing data, wi
 ## Reflections
 
 Remote sensing is new to me, and my ideal career would be a GIS engineer, and I think this would be very generalizable (and a bit difficult) at work. Learning remote sensing involves not only understanding complex scientific principles and technical operations, but also interpreting and applying the data. This is a bit of a concern for me and tests my data handling skills more. This learning process enhances the ability to analyze and solve practical problems. I hope I can learn more later on.
+
+## Reference
+
+Nagendra, H. (2001). *Using remote sensing to assess biodiversity: International Journal of Remote Sensing: Vol 22, No 12*. Available at: <https://www.tandfonline.com/doi/abs/10.1080/01431160117096?casa_token=5_dfr41l-38AAAAA:8Yz74SjFwZHdrUAsHntUx2ThAMcOqIHCdcdcS-CS1WKhccTggBEZa4XOHX3NTw1a84AXY0Pg4ZUE> (Accessed: 15 March 2024).
