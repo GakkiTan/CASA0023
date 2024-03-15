@@ -164,6 +164,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">7.1</span> Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">7.2</span> Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">7.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -206,6 +208,49 @@ ul.task-list li input[type="checkbox"] {
 <li>Further analysis.</li>
 </ol>
 <p><strong>Accuracy assessment:</strong></p>
+<p><strong>Component:</strong></p>
+<ul>
+<li><p>Confusion Matrix: The confusion matrix is a central tool for accuracy assessment, showing the relationship between the actual categories (ground truth data) and the classification results of remotely sensed data.</p></li>
+<li><p>Overall Accuracy</p></li>
+<li><p>Kappa Coefficient: Kappa coefficient values range from -1 to 1, with higher values indicating better consistency.</p></li>
+<li><p>User’s Accuracy and Producer’s Accuracy</p></li>
+</ul>
+<p><strong>Receiver Operating Characteristic Curve:</strong> Changing the threshold value of classifier will change.</p>
+<p><strong>Cross validation:</strong></p>
+<ol type="1">
+<li>K-Fold Cross Validation means the proportion of classes in each fold will reflect the proportion of classes in the entire dataset as closely as possible.</li>
+<li>Spatial cross validation specifically designed to take into account spatial correlation. Which including space grouping and spacial divition. (Notably, spatial autocorrelation also needs to be considered)</li>
+</ol>
+</section>
+<section id="applications" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
+<p>Sub pixel classification is mainly based on the Spectral Unmixing technique, which assumes that the spectral reflectance of a pixel can be expressed as a weighted average of the spectral reflectance of the individual ground cover types within it.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/classification.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Overview of the sub‐pixel mapping process in a 3×3 pixel scene, adapted from Atkinson (1997).</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The image that follows is a sub-pixel map of the fractional image with additional noise, derived from a regional imaging map of Cameroon. More isolated pixels and less precise readings are the result of higher noise levels. Due to the lack of spatial information inside pixels and the ensuing assumptions about spatial dependency, the inclusion of noise so amply illustrates that the quality of soft categorization is a vital aspect for the success of sub-pixel mapping.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/classification2.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Cameroon Example(Koen et al., 2007)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="reflection" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>
+<p>Sub pixel classification, as a new concept, is actually quite difficult to understand in application, and the calculation process is very complicated, to be honest I have not been able to understand his meaning very well in all these articles I have read.</p>
+<p>However, it is now widely used in land cover and land use classification, for example, in areas where blurred boundaries or mixed pixels are common, sub-pixel analysis can provide more accurate classification results. There is also vegetation cover estimation, which can accurately quantify the proportion of vegetation cover in a pixel for environmental monitoring and agricultural research. As well as water monitoring, which accurately analyzes the distribution of water bodies and other features in areas such as rivers, lakes, and coastlines. It’s interesting to note that these natural changes can also lead to urban sprawl, and it’s one of the studies on this part that I cited in last week’s literature. Sub pixel classification is still useful for detecting urban change.</p>
 
 
 </section>
