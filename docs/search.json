@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Learning diary",
     "section": "",
-    "text": "About\nHi. I am Gakki.\n我是谭咏莹。\n私はがきです。"
+    "text": "About\nHi. I am Gakki. Here’s my remote sensing reading diary.\n我是谭咏莹。\n私はがきです。"
   },
   {
     "objectID": "Week1.html#summary",
@@ -172,7 +172,7 @@
     "href": "Week10.html#reflection",
     "title": "8  Week10—SAR",
     "section": "8.3 Reflection",
-    "text": "8.3 Reflection\nThis week’s study was about SAR, I was more concerned about the difference between SAR and DInSAR, then I realized the amazing difference between the two.SAR mainly detects the surface condition, while DInSAR detects the subtle changes on the surface, so it can be said that DInSAR is an advanced version of SAR. For the current global warming problem, DInSAR will have more to build on this problem.\nIt’s the last week of notes, and it feels like time is going by so fast, and this seems to be my last class in graduate school. I hope I can write my thesis properly and graduate successfully!"
+    "text": "8.3 Reflection\nThis week’s study was about SAR, I was more concerned about the difference between SAR and DInSAR, then I realized the amazing difference between the two.SAR mainly detects the surface condition, while DInSAR detects the subtle changes on the surface, so it can be said that DInSAR is an advanced version of SAR. For the current global warming problem, DInSAR will have more to build on this problem.\nIt’s the last week of notes, and it feels like time is going by so fast, and this seems to be my last class in university. I hope I can graduate successfully!"
   },
   {
     "objectID": "references.html",
@@ -228,6 +228,6 @@
     "href": "Week10.html#reference",
     "title": "8  Week10—SAR",
     "section": "8.4 Reference",
-    "text": "8.4 Reference\nCiampalini, A., Solari, L., Giannecchini, R., Galanti, Y. and Moretti, S. (2019). Evaluation of subsidence induced by long-lasting buildings load using InSAR technique and geotechnical data: The case study of a Freight Terminal (Tuscany, Italy) - ScienceDirect. Available at: https://www.sciencedirect.com/science/article/pii/S0303243419301722 (Accessed: 15 March 2024).\nCrosetto, M., Solari, L., Mróz, M., Balasis-Levinsen, J., Casagli, N., Frei, M., Oyen, A., Moldestad, D. A., Bateson, L., Guerrieri, L., Comerci, V. and Andersen, H. S. (2020). 'The Evolution of Wide-Area DInSAR: From Regional and National Services to the European Ground Motion Service'. Remote Sensing. Multidisciplinary Digital Publishing Institute, 12 (12), p. 2043. doi: 10.3390/rs12122043.\nFerretti, A., Prati, C. and Rocca, F. (2000). 'Nonlinear subsidence rate estimation using permanent scatterers in differential SAR interferometry'. IEEE Transactions on Geoscience and Remote Sensing. IEEE Transactions on Geoscience and Remote Sensing, 38 (5), pp. 2202–2212. doi: 10.1109/36.868878."
+    "text": "8.4 Reference\nCiampalini, A., Solari, L., Giannecchini, R., Galanti, Y. and Moretti, S. (2019). Evaluation of subsidence induced by long-lasting buildings load using InSAR technique and geotechnical data: The case study of a Freight Terminal (Tuscany, Italy) - ScienceDirect. Available at: https://www.sciencedirect.com/science/article/pii/S0303243419301722 (Accessed: 15 March 2024).\nCrosetto, M., Solari, L., Mróz, M., Balasis-Levinsen, J., Casagli, N., Frei, M., Oyen, A., Moldestad, D. A., Bateson, L., Guerrieri, L., Comerci, V. and Andersen, H. S. (2020). ‘The Evolution of Wide-Area DInSAR: From Regional and National Services to the European Ground Motion Service’. Remote Sensing. Multidisciplinary Digital Publishing Institute, 12 (12), p. 2043. doi: 10.3390/rs12122043.\nFerretti, A., Prati, C. and Rocca, F. (2000). ‘Nonlinear subsidence rate estimation using permanent scatterers in differential SAR interferometry’. IEEE Transactions on Geoscience and Remote Sensing. IEEE Transactions on Geoscience and Remote Sensing, 38 (5), pp. 2202–2212. doi: 10.1109/36.868878."
   }
 ]

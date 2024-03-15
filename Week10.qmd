@@ -19,7 +19,7 @@ knitr::include_graphics("images/SAR.jpeg")
 **Differential Interferometric Synthetic Aperture Radar (DInSAR) & SAR**
 
 |                    |                                                                                          SAR                                                                                           |                                                                      DInSAR                                                                      |
-|--------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|
+|--------------|:-------------------------------:|:-----------------------:|
 | **Principle**      | Radar waves are used to illuminate the surface and collect reflected signals, generating high-resolution images based on the intensity (amplitude) and phase of the reflected signals. | Based on two or more SAR images acquired at different times, small deformations of the surface are measured by calculating the phase difference. |
 | **Export**         |                                                                                 Land surface features                                                                                  |                                               Small movements or deformations of the land surface                                                |
 | **Mainly use for** |                                           Land surface cover classification, Environmental monitoring, Ocean and Ice sheet observations etc.                                           |                          Earthquakes, Volcanic activity, Landslides, Urban subsidence and Glacial flow monitoring etc.                           |
@@ -56,7 +56,7 @@ DInSAR technology has undergone tremendous development over the past two decades
 
 This week's study was about SAR, I was more concerned about the difference between SAR and DInSAR, then I realized the amazing difference between the two.SAR mainly detects the surface condition, while DInSAR detects the subtle changes on the surface, so it can be said that DInSAR is an advanced version of SAR. For the current global warming problem, DInSAR will have more to build on this problem.
 
-It's the last week of notes, and it feels like time is going by so fast, and this seems to be my last class in graduate school. I hope I can write my thesis properly and graduate successfully!
+It's the last week of notes, and it feels like time is going by so fast, and this seems to be my last class in university. I hope I can graduate successfully!
 
 ## Reference
 
