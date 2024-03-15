@@ -50,4 +50,4 @@ Google's pioneering in maps is something I've always admired, I've enjoyed looki
 
 Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D. and Moore, R. (2017). *Google Earth Engine: Planetary-scale geospatial analysis for everyone - ScienceDirect*. Available at: [https://www.sciencedirect.com/science/article/pii/S0034425717302900?via%3Dihub](#0) (Accessed: 25 February 2024).
 
-Jamali, A. A., Ghorbani Kalkhajeh, R., Randhir, T. O. and He, S. (2022). \'Modeling relationship between land surface temperature anomaly and environmental factors using GEE and Giovanni\'. *Journal of Environmental Management*, 302, p. 113970. doi: [10.1016/j.jenvman.2021.113970](https://doi.org/10.1016/j.jenvman.2021.113970).
+Jamali, A. A., Ghorbani Kalkhajeh, R., Randhir, T. O. and He, S. (2022). 'Modeling relationship between land surface temperature anomaly and environmental factors using GEE and Giovanni'. *Journal of Environmental Management*, 302, p. 113970. doi: [10.1016/j.jenvman.2021.113970](https://doi.org/10.1016/j.jenvman.2021.113970).

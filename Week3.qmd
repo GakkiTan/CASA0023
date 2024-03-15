@@ -50,4 +50,4 @@ After this week's class, I learned a lot about correction and enhancement, which
 
 ## Reference
 
-Warner, T. (2011). \'Kernel-Based Texture in Remote Sensing Image Classification\'. *Geography Compass*, 5 (10), pp. 781--798. doi: [10.1111/j.1749-8198.2011.00451.x](https://doi.org/10.1111/j.1749-8198.2011.00451.x).
+Warner, T. (2011). 'Kernel-Based Texture in Remote Sensing Image Classification'. *Geography Compass*, 5 (10), pp. 781--798. doi: [10.1111/j.1749-8198.2011.00451.x](https://doi.org/10.1111/j.1749-8198.2011.00451.x).

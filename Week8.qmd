@@ -58,4 +58,4 @@ The application of decision trees takes the difficulty of remote sensing learnin
 
 ## Reference
 
-Hu, D., Chen, S., Qiao, K. and Cao, S. (2017). \'Integrating CART algorithm and multi-source remote sensing data to estimate sub-pixel impervious surface coverage: a case study from Beijing Municipality, China\'. *Chinese Geographical Science*, 27 (4), pp. 614--625. doi: [10.1007/s11769-017-0882-x](https://doi.org/10.1007/s11769-017-0882-x).
+Hu, D., Chen, S., Qiao, K. and Cao, S. (2017). 'Integrating CART algorithm and multi-source remote sensing data to estimate sub-pixel impervious surface coverage: a case study from Beijing Municipality, China'. *Chinese Geographical Science*, 27 (4), pp. 614--625. doi: [10.1007/s11769-017-0882-x](https://doi.org/10.1007/s11769-017-0882-x).
