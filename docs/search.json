@@ -152,5 +152,12 @@
     "title": "7  Week9",
     "section": "7.3 Reflection",
     "text": "7.3 Reflection\nSub pixel classification, as a new concept, is actually quite difficult to understand in application, and the calculation process is very complicated, to be honest I have not been able to understand his meaning very well in all these articles I have read.\nHowever, it is now widely used in land cover and land use classification, for example, in areas where blurred boundaries or mixed pixels are common, sub-pixel analysis can provide more accurate classification results. There is also vegetation cover estimation, which can accurately quantify the proportion of vegetation cover in a pixel for environmental monitoring and agricultural research. As well as water monitoring, which accurately analyzes the distribution of water bodies and other features in areas such as rivers, lakes, and coastlines. It’s interesting to note that these natural changes can also lead to urban sprawl, and it’s one of the studies on this part that I cited in last week’s literature. Sub pixel classification is still useful for detecting urban change."
+  },
+  {
+    "objectID": "Week10.html#summary",
+    "href": "Week10.html#summary",
+    "title": "8  Week10-SAR",
+    "section": "8.1 Summary",
+    "text": "8.1 Summary\nTwo types of sensor: active and passive. (Which we have learnt at week1)\nSAR works by utilizing the properties of radar wavelengths to detect conditions on the ground. It is mounted on satellites or airplanes that transmit radar waves to the ground and collect the signals reflected back. Unlike optical remote sensing, SAR is able to operate at night or in cloudy and rainy weather conditions because the radar waves can penetrate clouds and a certain level of vegetation."
   }
 ]
