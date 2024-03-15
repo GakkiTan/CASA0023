@@ -7,3 +7,19 @@ title: "Week10"
 Two types of sensor: active and passive. (Which we have learnt at week1)
 
 **SAR** works by utilizing the properties of radar wavelengths to detect conditions on the ground. It is mounted on satellites or airplanes that transmit radar waves to the ground and collect the signals reflected back. Unlike optical remote sensing, SAR is able to operate at night or in cloudy and rainy weather conditions because the radar waves can penetrate clouds and a certain level of vegetation.
+
+The picture below shows the working principle of SAR.
+
+```{r echo=FALSE, fig.cap="Source from: https://zhuanlan.zhihu.com/p/98053986"}
+knitr::include_graphics("images/SAR.jpeg")
+```
+
+**Amplitude (backscatter) and phase：**A high amplitude value usually means that the target is highly reflective and vice versa. For example, wet ground, buildings and rocks reflect radar waves strongly and appear as bright areas on the image, while bodies of water absorb more radar waves and usually appear as dark areas.
+
+**Differential Interferometric Synthetic Aperture Radar (DInSAR) & SAR**
+
+|                | SAR                                                                                                                                                                                    | DInSAR                                                                                                                                           |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| Principle      | Radar waves are used to illuminate the surface and collect reflected signals, generating high-resolution images based on the intensity (amplitude) and phase of the reflected signals. | Based on two or more SAR images acquired at different times, small deformations of the surface are measured by calculating the phase difference. |
+| Export         | Land surface features                                                                                                                                                                  | Small movements or deformations of the land surface                                                                                              |
+| Mainly use for | Land surface cover classification, Environmental monitoring, Ocean and Ice sheet observations etc.                                                                                     | Earthquakes, Volcanic activity, Landslides, Urban subsidence and Glacial flow monitoring etc.                                                    |
