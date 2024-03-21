@@ -55,6 +55,8 @@ The image that follows is a sub-pixel map of the fractional image with additiona
 knitr::include_graphics("images/classification2.jpeg")
 ```
 
+However these are based on computational complexity and data with high quality inputs. In addition, accurate estimation of information at the sub-pixel level requires advanced algorithms and models that must be able to effectively deal with noise and other distortions in the image. All these pose challenges for sub-pixel level maps.
+
 ## Reflection
 
 Sub pixel classification, as a new concept, is actually quite difficult to understand in application, and the calculation process is very complicated, to be honest I have not been able to understand his meaning very well in all these articles I have read.
